@@ -10,15 +10,16 @@ export default function App() {
       target="_blank" rel="noreferrer"
         style={{
           borderRadius: "50%",
-          width: 50,
-          height: 50,
+          width: 40,
+          height: 40,
           backgroundColor: "#25d366",
           position: "fixed",
-          left: "95%",
+          left: "90%",
           bottom: "5%",
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
+
         }}
       >
         <FaWhatsapp style={{
