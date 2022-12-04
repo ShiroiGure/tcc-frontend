@@ -10,14 +10,16 @@ div.login-page {
 div.form {
   flex: 1;
   width: 100%;
-  border-right: 2px solid #f1e6ef;
+
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  margin-top: 2%;
 }
 
 div.form h1 {
-  margin-bottom: 100px;
+  padding-bottom: 180px;
 }
 
 div.form span {
@@ -41,6 +43,7 @@ div.form div.password-input {
   justify-content: center;
   margin: 10px 0;
   width: 300px;
+  margin-top: 10px;
 }
 
 div.form div.email-input input,
@@ -49,6 +52,7 @@ div.form div.password-input input {
   padding: 10px;
   width: 300px;
   outline: none;
+  margin-top: 10px;
 }
 
 div.form .forget-password {
@@ -68,6 +72,7 @@ div.form form button {
   border-radius: 10px;
   cursor: pointer;
   border-style: hidden;
+  transition: box-shadow .4s cubic-bezier(.25,.8,.25,1),background-color .8s cubic-bezier(.25,.8,.25,1);
 }
 
 div.form form .register-btn {
@@ -81,6 +86,7 @@ div.form form .register-btn {
   border-radius: 10px;
   cursor: pointer;
   font-size: 14px;
+  transition: box-shadow .4s cubic-bezier(.25,.8,.25,1),background-color .8s cubic-bezier(.25,.8,.25,1);
 }
 
 div.form form button:hover, 
@@ -96,126 +102,84 @@ div.form form .register-btn:hover {
   cursor: pointer;
 }
 
-
-div.image {
+.image {
   flex: 1;
   width: 100%;
-  border-left: 2px solid #f1e6ef;
+  border-left: 4px solid #f1e6ef;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-top: 8%;
 }
 
-/* RESPONSIVIDADE */
+.image img {
+  border-radius: 30px;
+}
 
-@media (max-width: 620px){
-  div.login-page {
-    width: 100%;
-    min-height: 70vh;
-    height: auto;
-    margin-top: 70px;
-    display: flex;
-    font-family: 'Poppins', sans-serif;
+
+
+/*Animação*/
+
+.engloba{
+  outline: none;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  position: relative;
+  margin-right: 10%;
+}
+.engloba input{
+  outline: none;
+  border: transparent;
+  position: relative;
+  padding-left: 5px;
+  transition: all 0.5s ease-in-out;
+  transition: border-color 0.2s ease-out;
+  border-bottom: 2px solid rgba(243, 175, 232, 0.5);
+}
+
+
+
+.inputz{
+  outline: none;
+  position: relative;
+  margin-top: 5px;
+  transition: all 0.2s ease-in-out;
+  left: -165px;
+  font-size: 15px;
+  width: 200px;
+  pointer-events: none;
+  background: transparent;
+  border: none;
+}
+.i1:focus + .inputz{
+  transform: translateY(-4px);
+  font-size: 13px;
+}
+.i1 input::placeholder{
+  color:transparent;
+}
+.i1:focus + label, .i1:not(:placeholder-shown) + label{
+font-size: 13px;
+margin-top: -20px;
+color: #b8a6b5;
+}
+
+
+/*Fim Animação*/
+
+
+
+
+@media screen and (min-width: 320px) and (max-width: 800px){
+  .image {
+    display: none;
   }
-  
-  div.form {
-    flex: 1;
-    width: 100%;
-    border-right: 2px solid #f1e6ef;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
+
   div.form h1 {
-    margin-bottom: 100px;
+    padding-bottom: 110px;
   }
-  
-  div.form span {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    color: red;
-  }
-  
-  div.form form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  div.form div.email-input, 
-  div.form div.password-input {
-    border-bottom: 2px solid #f1e6ef;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    margin: 10px 0;
-    width: 300px;
-  }
-  
-  div.form div.email-input input,
-  div.form div.password-input input {
-    border: none;
-    padding: 10px;
-    width: 300px;
-    outline: none;
-  }
-  
-  div.form .forget-password {
-    text-decoration: none;
-    color: #585858;
-  }
-  
-  div.form form button {
-    width: 250px;
-    padding: 7px 14px;
-    height: 32px;
-    background-color: #222;
-    color: #fff;
-    text-align: center;
-    text-decoration: none;
-    margin: 10px 0;
-    border-radius: 10px;
-    cursor: pointer;
-    border-style: hidden;
-  }
-  
-  div.form form .register-btn {
-    width: 250px;
-    padding: 7px 14px;
-    background-color: #222;
-    color: #fff;
-    text-align: center;
-    text-decoration: none;
-    margin: 10px 0;
-    border-radius: 10px;
-    cursor: pointer;
-    font-size: 14px;
-  }
-  
-  div.form form button:hover, 
-  div.form form .register-btn:hover {
-    background:  rgba(243, 175, 232, 0.5);
-    width: 250px;
-    padding: 7px 14px;
-    color: rgb(3, 3, 3);
-    text-align: center;
-    text-decoration: none;
-    margin: 10px 0;
-    border-radius: 10px;
-    cursor: pointer;
-  }
-  
-  
-  div.image {
-    flex: 1;
-    width: 100%;
-    border-left: 2px solid #f1e6ef;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
+
 }

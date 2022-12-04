@@ -15,7 +15,7 @@
   display: flex;
     flex-direction: row;
     margin-right: 20px;
-    width: 600px;
+    width: 55%;
     justify-content: space-evenly;
     align-items: center;
     text-align: center;
@@ -23,9 +23,47 @@
 
 .filters div {
   margin: 5px 10px;
+  display: flex;
+ 
 }
 
 .filters div input,
 .filters div span {
   margin: 5px 5px;
+}
+@media screen and (min-width: 320px) and (max-width:800px) {
+
+    
+.principal{
+  display: none;
+}
+
+.filters-component{
+  padding: 0px 0px;
+  margin: 30px 0;
+
+}
+
+  .filters {
+      display: flex;
+      flex-direction: row;
+      margin-right: -10px;
+      width: 900px;
+      justify-content: space-evenly;
+      align-items: center;
+      text-align: center;
+      flex-direction: column;
+  }
+
+  
+
+  .filters div {
+    width: 300px;
+    margin-left: 200px;
+  }
+
+  .text {
+   visibility: hidden;
+  }
+
 }

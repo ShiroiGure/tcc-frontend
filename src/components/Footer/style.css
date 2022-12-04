@@ -1,29 +1,29 @@
+/*
 .footer {
     background-color: rgba(0, 0, 0, 0.651);
-    width: 1360px;
-    height: 200px;
+    width: 100vw;
+    height: 26vh;
     position: absolute;
     margin-top: 140px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-div .footer .image {
-    height: 180px;
-    width: 234px;
-    scale: 75%;
-    border-style: hidden;
+.fotinha{
+    width: 334px;
+    height: 240px;
     position: relative;
 }
 
 .Navigation{
-    position: absolute;
+ 
     margin-left: 225px;
     margin-top: 10vh;
 }
 
 .About{
-    position: absolute;
-    margin-left: 225px;
-    margin-top: 10vh;
+    background-color: red;
 }
 
 .itens{
@@ -34,23 +34,117 @@ div .footer .image {
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
     text-decoration: none;
-    /* cursor: pointer; */
+
 }
 
 .item{
-    margin-left: 500px;
     align-items: center;
     color: #fff;
     display: list-item;
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
-    /* cursor: pointer; */
+
 }
 
 .copy{
     font-family: 'Poppins', sans-serif;
     color: #fff;
-    margin-left: 505px;
+    position: absolute;
+   bottom: 20px;
     font-size: small;
 }
+*/
 
+/*Final Da página - Rodapé*/
+
+
+footer{
+    background-color: rgba(0, 0, 0, 0.651);
+    height: 26vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    color: white;
+  }
+footer p{
+    font-size: 13px;
+}
+.logoFeet{
+    width: 234px;
+    height: 180px;
+}
+  
+.bolado{
+  display: flex;
+  justify-content: space-between;
+  width: 800px;
+}
+.copri{
+  position: absolute;
+  margin-top: 170px;
+}
+.direitos{
+  font-size: 15px;
+}
+  
+.sobra{
+  width: 800px;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.651);
+  position: absolute;
+  margin-top: -200px;
+  margin-left: -600px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+}
+.sobre-nos li button{
+  background-color: transparent;
+  color: white;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    list-style: none;
+    font-size: 15px;
+}
+h3{
+    font-size: 16px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+  
+  /*Fim Da página - Rodapé*/
+
+  @media screen and (min-width: 0px) and (max-width: 1000px) {
+    .logoFeet{
+        display: none;
+    }
+    .bolado{
+        justify-content: space-around;
+    }
+    .direitos{
+        font-size: 12px;
+    }
+  }
+  @media screen and (min-width: 320px) and (max-width: 400px) {
+    h3{
+        font-size: 14px;
+    }
+    li, .bunt{
+        font-size: 12px;
+    }
+  }

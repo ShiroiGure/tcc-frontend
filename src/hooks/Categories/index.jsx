@@ -36,7 +36,7 @@ export default function Categories() {
   return (
     <>
       <div className="filters-component">
-        <span>Filtrar por: </span>
+        <span className="text">Filtrar por: </span>
         <div className="filters">
           {data.map((category, index) => (
             <div key={index + 2}>
