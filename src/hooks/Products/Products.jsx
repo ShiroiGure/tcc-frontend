@@ -100,7 +100,7 @@ function Products({ isInventory }) {
               </>
             )}
             <img
-              src={`http://localhost:5555/productImage/${product.image}`}
+              src={`https://estoque-joiasbraga.herokuapp.com/productImage/${product.image}`}
               alt="CardProductImage"
             />
             <h2>{product.name}</h2>

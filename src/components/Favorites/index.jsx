@@ -53,7 +53,7 @@ export default function Favorites() {
             />
 
             <img
-              src={`http://localhost:5555/productImage/${favorite.image}`}
+              src={`https://estoque-joiasbraga.herokuapp.com/productImage/${favorite.image}`}
               alt="CardfavoriteImage"
             />
             <h2>{favorite.name}</h2>

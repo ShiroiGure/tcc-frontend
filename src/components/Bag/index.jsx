@@ -73,7 +73,7 @@ export default function Bag() {
             {bag?.map((product) => (
               <li>
                  <img
-                  src={`http://localhost:5555/productImage/${product.image}`}
+                  src={`https://estoque-joiasbraga.herokuapp.com/productImage/${product.image}`}
                   alt="bag_itemImage"
                   className="imgNote"
                 />
@@ -103,7 +103,7 @@ export default function Bag() {
                 />
 
                 <img
-                  src={`http://localhost:5555/productImage/${bag_item.image}`}
+                  src={`https://estoque-joiasbraga.herokuapp.com/productImage/${bag_item.image}`}
                   alt="bag_itemImage"
                 />
                 <h2>{bag_item.name}</h2>
