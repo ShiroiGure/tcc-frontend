@@ -1,0 +1,36 @@
+.edit-page {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.edit-page h2 {
+  margin-bottom: 30px;
+}
+
+.edit-page form {
+  display: flex;
+  flex-direction: column;
+}
+
+.edit-page form input,
+.edit-page form span {
+  margin-bottom: 10px;
+}
+
+.edit-page form button {
+  width: 250px;
+  padding: 7px 14px;
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px 0;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+}

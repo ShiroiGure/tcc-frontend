@@ -1,0 +1,221 @@
+div.login-page {
+  width: 100%;
+  min-height: 70vh;
+  height: auto;
+  margin-top: 70px;
+  display: flex;
+  font-family: 'Poppins', sans-serif;
+}
+
+div.form {
+  flex: 1;
+  width: 100%;
+  border-right: 2px solid #f1e6ef;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div.form h1 {
+  margin-bottom: 100px;
+}
+
+div.form span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: red;
+}
+
+div.form form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div.form div.email-input, 
+div.form div.password-input {
+  border-bottom: 2px solid #f1e6ef;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+  width: 300px;
+}
+
+div.form div.email-input input,
+div.form div.password-input input {
+  border: none;
+  padding: 10px;
+  width: 300px;
+  outline: none;
+}
+
+div.form .forget-password {
+  text-decoration: none;
+  color: #585858;
+}
+
+div.form form button {
+  width: 250px;
+  padding: 7px 14px;
+  height: 32px;
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px 0;
+  border-radius: 10px;
+  cursor: pointer;
+  border-style: hidden;
+}
+
+div.form form .register-btn {
+  width: 250px;
+  padding: 7px 14px;
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px 0;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+div.form form button:hover, 
+div.form form .register-btn:hover {
+  background:  rgba(243, 175, 232, 0.5);
+  width: 250px;
+  padding: 7px 14px;
+  color: rgb(3, 3, 3);
+  text-align: center;
+  text-decoration: none;
+  margin: 10px 0;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
+div.image {
+  flex: 1;
+  width: 100%;
+  border-left: 2px solid #f1e6ef;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 620px){
+  div.login-page {
+    width: 100%;
+    min-height: 70vh;
+    height: auto;
+    margin-top: 70px;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  div.form {
+    flex: 1;
+    width: 100%;
+    border-right: 2px solid #f1e6ef;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  div.form h1 {
+    margin-bottom: 100px;
+  }
+  
+  div.form span {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+  }
+  
+  div.form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  div.form div.email-input, 
+  div.form div.password-input {
+    border-bottom: 2px solid #f1e6ef;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+    width: 300px;
+  }
+  
+  div.form div.email-input input,
+  div.form div.password-input input {
+    border: none;
+    padding: 10px;
+    width: 300px;
+    outline: none;
+  }
+  
+  div.form .forget-password {
+    text-decoration: none;
+    color: #585858;
+  }
+  
+  div.form form button {
+    width: 250px;
+    padding: 7px 14px;
+    height: 32px;
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px 0;
+    border-radius: 10px;
+    cursor: pointer;
+    border-style: hidden;
+  }
+  
+  div.form form .register-btn {
+    width: 250px;
+    padding: 7px 14px;
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px 0;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  div.form form button:hover, 
+  div.form form .register-btn:hover {
+    background:  rgba(243, 175, 232, 0.5);
+    width: 250px;
+    padding: 7px 14px;
+    color: rgb(3, 3, 3);
+    text-align: center;
+    text-decoration: none;
+    margin: 10px 0;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  
+  div.image {
+    flex: 1;
+    width: 100%;
+    border-left: 2px solid #f1e6ef;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}

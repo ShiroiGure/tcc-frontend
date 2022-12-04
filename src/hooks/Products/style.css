@@ -1,0 +1,96 @@
+.products {
+  width: 100vw;
+  height: auto;
+  min-height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0px 10%;
+  margin-bottom: 55px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+}
+
+.products .add-product {
+  position: absolute;
+  right: 5%;
+  top: 25%;
+  font-size: 26px;
+  color: #222;
+  cursor: pointer;
+}
+
+.card-product {
+  width: 250px;
+  min-height: 300px;
+  margin: 10px 10px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  -webkit-box-shadow: 10px 10px 5px 0px #c5c5c5;
+  -moz-box-shadow: 10px 10px 5px 0px #c5c5c5;
+  box-shadow: 10px 10px 5px 0px #c5c5c5;
+  border-left: 1px solid #f1e6ef;
+  border-radius: 15px;
+  border-left: 3px solid rgb(243, 175, 232);
+}
+
+.card-product:hover {
+  transform: translateY(-5px);
+}
+
+.card-product .icons {
+  display: "inline-flex";
+  margin-left: 75%;
+  margin-bottom: 10px;
+}
+
+.card-product .favorite-icon {
+  cursor: pointer;
+  margin: 0px 2px;
+  font-size: 20px;
+  /* margin-left: 90%; */
+}
+
+.card-product .favorite-icon:hover {
+  color: red;
+}
+
+.card-product .bag-icon {
+  cursor: pointer;
+  margin: 0px 2px;
+  font-size: 19px;
+  /* margin-left: 90%; */
+}
+
+.card-product .bag-icon:hover {
+  color: rgb(0, 138, 11);
+}
+
+.card-product img {
+  width: 175px;
+  height: 175px;
+  border-radius: 15px;
+}
+
+.card-product h2 {
+  margin: 10px 0px;
+  font-size: 16px;
+}
+
+.card-product .card-actions {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-actions span {
+  margin: 5px 5px;
+}
+
+.priceText{
+  font-size: 17px;
+}

@@ -1,0 +1,26 @@
+div.signup-page {
+  margin-top: 70px;
+  width: 100%;
+  height: auto;
+  min-height: 90vh;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+}
+
+div.signup-page div.form {
+  flex: 1;
+}
+
+div.form h1 {
+  margin-bottom: 50px;
+}
+
+div.signup-page div.image {
+  flex: 1;
+}
+
+.btn{
+  font-size: 14px;
+}
