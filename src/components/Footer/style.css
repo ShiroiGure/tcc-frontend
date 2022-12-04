@@ -90,20 +90,6 @@ footer p{
 .direitos{
   font-size: 15px;
 }
-  
-.sobra{
-  width: 800px;
-  height: 100px;
-  background-color: rgba(0, 0, 0, 0.651);
-  position: absolute;
-  margin-top: -200px;
-  margin-left: -600px;
-  border-radius: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  visibility: hidden;
-}
 .sobre-nos li button{
   background-color: transparent;
   color: white;

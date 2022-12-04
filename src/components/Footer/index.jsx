@@ -21,25 +21,22 @@ export default function Footer() {
        
             <ul className="ul-nav">
                 <h3> Navegação </h3>
-                <li > <a href="/front-end/Tela Catalogo/index.html"> Catálogo </a></li>
+                <li > <a href="/#"> Catálogo </a></li>
             </ul>
        
       
             <ul className="sobre-nos">
                 <h3> Sobre nós </h3>
                 <li>Quem somos?</li>
-                <div className="sobra">
-                    <p>Somos muito bobos</p>
-                    <button onclick="outnos()"><img src="src/X-saida.png" alt="" srcset="" className="lixin"/></button>
-                </div>
                 
             </ul>
  
 
             <ul className="sobre-noz">
                 <h3> Suporte </h3>
-                <li>Contato</li>
-                <li>Detalhes sobre o site</li>
+                <li><a href="https://api.whatsapp.com/send/?phone=5511954291484&text=Ol%C3%A1%2C+meu+pedido+%C3%A9+Numero+10&type=phone_number&app_absent=0">
+                    Contato</a></li>
+                <li><a href="https://www.instagram.com/hyipnus_tcc/">Detalhes sobre o site</a></li>
                 
             </ul>
  
